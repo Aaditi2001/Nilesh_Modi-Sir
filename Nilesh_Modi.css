@@ -286,10 +286,8 @@ header#header {
 
 .bg-body-tertiary {
   --bs-bg-opacity: 1;
-  background-color: rgba(
-    var(--bs-tertiary-bg-rgb),
-    var(--bs-bg-opacity)
-  ) !important;
+  background-color: rgba(var(--bs-tertiary-bg-rgb),
+      var(--bs-bg-opacity)) !important;
 }
 
 /* media quarry nav bar */
@@ -412,13 +410,7 @@ header#header {
   border-top-left-radius: 10px;
 }
 
-.about-section
-  .image-column
-  .inner-column
-  .image
-  .overlay-box
-  .year-box
-  .number {
+.about-section .image-column .inner-column .image .overlay-box .year-box .number {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -550,13 +542,7 @@ h2.about-us-h2 {
     font-size: 12px;
   }
 
-  .about-section
-    .image-column
-    .inner-column
-    .image
-    .overlay-box
-    .year-box
-    .number {
+  .about-section .image-column .inner-column .image .overlay-box .year-box .number {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -724,7 +710,7 @@ p.skill-para {
 }
 
 .card_skill {
-  background-image: url("assets/bg26.jpg");
+  background-image: url("assets/rb_2032.png");
   background-position: center;
   background-size: cover;
 }
@@ -743,17 +729,25 @@ p.skill-para {
 
 /* experience section start */
 
+.experience_full_body {
+  /* border: 1px solid black; */
+  padding: 0px 50px 0px 50px;
+  /* background-color: antiquewhite; */
+
+}
+
 div#experience {
-  background-color: rgb(243 253 255);
+  background-color: rgb(255 253 244);
   padding-top: 30px;
   margin-top: 70px;
 }
 
 .section-3 {
-  margin-top: 40px;
+  margin-top: 56px;
   background-color: rgb(255, 255, 255);
-  padding: 24px;
+  padding: 28px;
   box-shadow: 12px 12px 1px 1px #dfdcdc6b;
+  border-radius: 20px;
 }
 
 .experience_section {
@@ -803,10 +797,345 @@ li.experience_li {
   display: none;
 }
 
+#invisible_text_1 {
+  display: none;
+}
+
+#invisible_text_2 {
+  display: none;
+}
+
+#invisible_text_3 {
+  display: none;
+}
+
+#invisible_text_4 {
+  display: none;
+}
+
+#invisible_text_5 {
+  display: none;
+}
+
+#invisible_text_6 {
+  display: none;
+}
+
+button#btn_experiencebutton:hover {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #1b0444;
+  color: white;
+}
+
+button#btn_experiencebutton {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #1b0444;
+}
+
+button#btn_experiencebutton_1:hover {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #1b0444;
+  color: white;
+}
+
+button#btn_experiencebutton_1 {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #1b0444;
+}
+
+
+button#btn_experiencebutton_2:hover {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #1b0444;
+  color: white;
+}
+
+button#btn_experiencebutton_2 {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #1b0444;
+}
+
+
+button#btn_experiencebutton_3:hover {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #1b0444;
+  color: white;
+}
+
+button#btn_experiencebutton_3 {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #1b0444;
+}
+
+
+
+button#btn_experiencebutton_4:hover {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #1b0444;
+  color: white;
+}
+
+button#btn_experiencebutton_4 {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #1b0444;
+}
+
+
+
+button#btn_experiencebutton_5:hover {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #1b0444;
+  color: white;
+}
+
+button#btn_experiencebutton_5 {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #1b0444;
+}
+
+
+
+
+
+button#btn_experiencebutton_6:hover {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #1b0444;
+  color: white;
+}
+
+button#btn_experiencebutton_6 {
+  font-family: "Poppins";
+  border: 2px solid #1b0444;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #1b0444;
+}
+
 .read_more_button {
   text-align: end;
   margin-top: 16px;
   margin-bottom: 10px;
+}
+
+
+@media screen and (min-device-width: 500px) and (max-device-width: 991px) {
+  h3.h-experience {
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 500;
+    background-image: linear-gradient(359deg, #002060, #002060, #5a1368);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 4px;
+  }
+
+  p.p-experience {
+    font-family: "Poppins";
+    color: #b75d28;
+    font-size: 12px;
+  }
+
+  h6.date-experience {
+    color: #d7a449;
+    font-family: "Poppins";
+    text-align: end;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  button#btn_experiencebutton {
+    font-family: "Poppins";
+    border: 2px solid #1b0444;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .read_more_button {
+    text-align: end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+}
+
+
+@media screen and (min-device-width: 300px) and (max-device-width: 499px) {
+
+  .experience_full_body {
+    /* border: 1px solid black; */
+    padding: 0px 00px 0px 00px;
+    /* background-color: antiquewhite; */
+
+  }
+
+  div#experience {
+    background-color: rgb(255 253 244);
+    padding-top: 00px;
+    margin-top: 00px;
+  }
+
+  .section-3 {
+    margin-top: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0px 0px 0px 0px #dfdcdc6b;
+    border-radius: 20px;
+  }
+
+  ul.experience_discription {
+    font-family: poppins;
+    margin-top: 20px;
+    font-size: 10px;
+    color: #9393a9;
+    letter-spacing: 1px;
+  }
+
+  h3.h-experience {
+    font-family: "poppins";
+    font-size: 14px;
+    font-weight: 500;
+    background-image: linear-gradient(359deg, #002060, #002060, #5a1368);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 4px;
+  }
+
+  p.p-experience {
+    font-family: "Poppins";
+    color: #b75d28;
+    font-size: 9px;
+  }
+
+  h6.date-experience {
+    color: #d7a449;
+    font-family: "Poppins";
+    text-align: end;
+    font-size: 8px;
+    font-weight: 400;
+  }
+
+  button#btn_experiencebutton {
+    font-family: "Poppins";
+    border: 2px solid #1b0444;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 7px;
+    padding: 4px;
+  }
+
+  
+  button#btn_experiencebutton_1 {
+    font-family: "Poppins";
+    border: 2px solid #1b0444;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 7px;
+    padding: 4px;
+  }
+
+
+  
+  button#btn_experiencebutton_2 {
+    font-family: "Poppins";
+    border: 2px solid #1b0444;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 7px;
+    padding: 4px;
+  }
+
+
+  
+  button#btn_experiencebutton_3 {
+    font-family: "Poppins";
+    border: 2px solid #1b0444;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 7px;
+    padding: 4px;
+  }
+
+
+  
+  button#btn_experiencebutton_4 {
+    font-family: "Poppins";
+    border: 2px solid #1b0444;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 7px;
+    padding: 4px;
+  }
+
+
+  
+  button#btn_experiencebutton_5 {
+    font-family: "Poppins";
+    border: 2px solid #1b0444;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 7px;
+    padding: 4px;
+  }
+
+
+  button#btn_experiencebutton_6 {
+    font-family: "Poppins";
+    border: 2px solid #1b0444;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    font-size: 7px;
+    padding: 4px;
+  }
+
+
+  .read_more_button {
+    text-align: end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+
+  .experience_section {
+    /* border: 1px solid; */
+    border-bottom: 1px solid rgba(203, 201, 204, 0.548);
+  }
+
 }
 
 /* experience section end */
