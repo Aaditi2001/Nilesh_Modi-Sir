@@ -505,19 +505,37 @@ h2.about-us-h2 {
   letter-spacing: 1px;
 }
 
-@media screen and (min-device-width: 991px) and (max-device-width: 1200px) {
+@media screen and (min-device-width: 991px) and (max-device-width: 1199px) {
   .text-about-me {
     font-size: 10px;
   }
+
+  .about-section .image-column .inner-column .image .overlay-box .year-box {
+    position: relative;
+    color: #d7a449;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4em;
+    padding-left: 125px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: "poppins";
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
 }
 
-@media screen and (min-device-width: 1201px) and (max-device-width: 1399px) {
+@media screen and (min-device-width: 1200px) and (max-device-width: 1399px) {
   .text-about-me {
     font-size: 12px;
   }
 }
 
-@media screen and (min-width: 300px) and (max-device-width: 400px) {
+
+
+@media screen and (min-width: 300px) and (max-device-width: 500px) {
   .about-section .image-column .inner-column .image .overlay-box .year-box {
     font-size: 14px;
     padding-left: 50px;
